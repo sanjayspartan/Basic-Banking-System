@@ -1,0 +1,25 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+h2{
+	font-size: 38px;
+}
+table{
+	letter-spacing: 1.25px;
+}
+td{
+	text-align: center;
+}
+button{
+	border:none;
+	background:#b3ffff ;
+    transition: 1.25s;
+}
+@media only screen and (orientation: portrait){
+	*{
+		letter-spacing: 1.25px;
+	}
+}
